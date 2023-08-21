@@ -6,38 +6,41 @@ def print_fibonacci(length):
      elif length == 1:
           print([0])
      else:
-          fibonacci_seq = [0, 1]
+          fibonacci_seq = [0,1]
 
-          for _ in range(2, length):
+          while len(fibonacci_seq) < length: 
                next_number = fibonacci_seq[-1] + fibonacci_seq[-2]
                fibonacci_seq.append(next_number)
-               print(fibonacci_seq)
+
+          print(fibonacci_seq)
+     
+   
         
-try: 
-     print_fibonacci(0)
-     print(" Test passed")
-except Exception as e:
-    print (e)
 
 try: 
-     print_fibonacci(1)
-     print(" Test passed")
-except Exception as e:
-    print (e)
-
-try: 
-     print_fibonacci(2)
-     print(" Test passed")
-except Exception as e:
-    print (e)
+    result = print_fibonacci(0)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
 
 
 try: 
-     print_fibonacci(10)
-     print(" Test passed")
-except Exception as e:
-    print (e)
+    result = print_fibonacci(2)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+
+try: 
+    result = print_fibonacci(10)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
 
 
    
-  
+
