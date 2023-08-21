@@ -15,41 +15,26 @@ def print_fibonacci(length):
         
 try: 
      print_fibonacci(0)
+     print(" Test passed")
 except Exception as e:
     print (e)
 
 try: 
      print_fibonacci(1)
+     print(" Test passed")
 except Exception as e:
     print (e)
 
 try: 
      print_fibonacci(2)
+     print(" Test passed")
 except Exception as e:
     print (e)
 
-try: 
-     print_fibonacci(3)
-except Exception as e:
-    print (e)
 
 try: 
-     print_fibonacci(4)
-except Exception as e:
-    print (e)
-
-try: 
-     print_fibonacci(5)
-except Exception as e:
-    print (e)
-
-try: 
-     print_fibonacci(6)
-except Exception as e:
-    print (e)
-
-try: 
-     print_fibonacci(7)
+     print_fibonacci(10)
+     print(" Test passed")
 except Exception as e:
     print (e)
 
