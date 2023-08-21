@@ -24,6 +24,14 @@ try:
 except:
     print("Error in Calculation")
 
+try: 
+    result = print_fibonacci(1)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+
 
 try: 
     result = print_fibonacci(2)
@@ -34,12 +42,60 @@ except:
 
 
 try: 
-    result = print_fibonacci(10)
+    result = print_fibonacci(3)
     print(result)
     print("Test passed")
 except:
     print("Error in Calculation")
 
+try: 
+    result = print_fibonacci(4)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+try: 
+    result = print_fibonacci(5)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+try: 
+    result = print_fibonacci(6)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+try: 
+    result = print_fibonacci(7)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+try: 
+    result = print_fibonacci(8)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+    
+try: 
+    result = print_fibonacci(9)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
+
+try: 
+    result = print_fibonacci(10)
+    print(result)
+    print("Test passed")
+except:
+    print("Error in Calculation")
 
 
    
